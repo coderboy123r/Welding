@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdScene : MonoBehaviour
+public class tweleveactive : MonoBehaviour
 {
     public enum ActionMode { Delete, Deactivate }
 
@@ -18,11 +18,11 @@ public class ThirdScene : MonoBehaviour
     public GameObject[] emptyGroupsToActivate;  // Group2
 
     [Header("Extra Groups to Activate")]
-    public GameObject[] extraGroupsToActivate;  
+    public GameObject[] extraGroupsToActivate;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("CubeActive")) // Tag check
+        if (other.CompareTag("twelestep")) // Tag check
         {
             // Activate / Deactivate main objects
             if (objectToActivate != null) objectToActivate.SetActive(true);
@@ -53,7 +53,7 @@ public class ThirdScene : MonoBehaviour
             }
 
             // ⚡ Player (collider object) delete
-            Destroy(other.gameObject);
+            // Destroy(other.gameObject);
         }
     }
 

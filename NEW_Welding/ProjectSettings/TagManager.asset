@@ -6,6 +6,10 @@ TagManager:
   tags:
   - CubeActive
   - Cirumm
+  - nineActive
+  - tenActive
+  - elevenstep
+  - twelestep
   layers:
   - Default
   - TransparentFX
