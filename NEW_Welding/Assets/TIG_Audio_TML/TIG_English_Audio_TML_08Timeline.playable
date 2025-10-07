@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6225840684061632454
+--- !u!114 &-6842949702694144468
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,12 +22,12 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.5333333333333333
+    m_Start: 0.48333333333333334
     m_ClipIn: 0
-    m_Asset: {fileID: -4128401631580313573}
-    m_Duration: 8.25469387755102
+    m_Asset: {fileID: -920366785612285780}
+    m_Duration: 1.619591836734694
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -6225840684061632454}
+    m_ParentTrack: {fileID: -6842949702694144468}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
@@ -89,14 +89,14 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Audio_14_English
+    m_DisplayName: Audio_08_English
   m_Markers:
     m_Objects: []
   m_TrackProperties:
     volume: 1
     stereoPan: 0
     spatialBlend: 0
---- !u!114 &-4128401631580313573
+--- !u!114 &-920366785612285780
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: ba3b0ad86def9674abef75484271caa9, type: 3}
+  m_Clip: {fileID: 8300000, guid: afb74fe26d1b26544858b68c79b6f27f, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
@@ -123,11 +123,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: English_Audio_TMLTimeline
+  m_Name: TIG_English_Audio_TML_08Timeline
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: -6225840684061632454}
+  - {fileID: -6842949702694144468}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
