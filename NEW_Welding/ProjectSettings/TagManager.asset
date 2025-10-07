@@ -11,6 +11,8 @@ TagManager:
   - elevenstep
   - twelestep
   - thirteenActive
+  - lens
+  - Lens
   layers:
   - Default
   - TransparentFX
