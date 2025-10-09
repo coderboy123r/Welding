@@ -3016,7 +3016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &191629493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3641,6 +3641,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4850276507753084500, guid: 3d3afc211e1c7454094e8aa11d0f4aa7,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 187136745}
+    - target: {fileID: 5204379667314913700, guid: 3d3afc211e1c7454094e8aa11d0f4aa7,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 187136745}
     - target: {fileID: 9140648042711490454, guid: 3d3afc211e1c7454094e8aa11d0f4aa7,
         type: 3}
       propertyPath: m_BackGroundColor.a
@@ -3937,6 +3947,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316958169}
   m_Mesh: {fileID: 5060444177187149915, guid: cef36c935a27427488894e3db0d536fa, type: 3}
+--- !u!1 &325838868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a4bf44f136671a4f819747351b41c55,
+    type: 3}
+  m_PrefabInstance: {fileID: 1852234811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &325838872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325838868}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6692290496178104961, guid: 5a4bf44f136671a4f819747351b41c55, type: 3}
 --- !u!1 &327392172
 GameObject:
   m_ObjectHideFlags: 0
@@ -14424,7 +14462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1352124338
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21505,7 +21543,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a4bf44f136671a4f819747351b41c55,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 325838872}
   m_SourcePrefab: {fileID: 100100000, guid: 5a4bf44f136671a4f819747351b41c55, type: 3}
 --- !u!1 &1862739720
 GameObject:
@@ -24326,9 +24368,10 @@ GameObject:
   - component: {fileID: 2081250442}
   - component: {fileID: 2081250441}
   - component: {fileID: 2081250440}
+  - component: {fileID: 2081250443}
   m_Layer: 0
   m_Name: MIG_Torch_Grab_01
-  m_TagString: Torch Mig
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24554,6 +24597,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.21274808, y: 0.44806176, z: 0.07241868}
   m_Center: {x: -0.58933276, y: -0.7845332, z: 0.49314314}
+--- !u!114 &2081250443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081250438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ae7cc6e6e6e498b8fd5d67555df75b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lens: {fileID: 1302590328525904265}
 --- !u!1 &2098362589
 GameObject:
   m_ObjectHideFlags: 0
@@ -28250,7 +28306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &4459300160656004504
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -29799,7 +29855,7 @@ MonoBehaviour:
   useBackgroundCloudOcclusion: 0
   sampleCount: 32
   occlusionOffset: 0.05
-  scale: 0.37
+  scale: 0.25
   allowOffScreen: 0
   volumetricCloudOcclusion: 0
   occlusionRemapCurve:
