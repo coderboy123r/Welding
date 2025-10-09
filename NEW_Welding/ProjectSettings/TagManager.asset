@@ -13,6 +13,7 @@ TagManager:
   - thirteenActive
   - lens
   - Lens
+  - Torch Mig
   layers:
   - Default
   - TransparentFX
